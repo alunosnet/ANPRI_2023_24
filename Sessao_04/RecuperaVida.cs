@@ -4,7 +4,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+ 
 public class RecuperaVida : MonoBehaviour
 {
     public int ValorGanhaVida = 10;
