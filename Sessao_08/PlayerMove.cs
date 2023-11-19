@@ -1,5 +1,5 @@
 //
-// Copyright (c) 2022 IndieDevPt. All rights reserved.
+// Copyright (c) 2023 IndieDevPt. All rights reserved.
 //
 using System.Collections;
 using System.Collections.Generic;
@@ -30,7 +30,7 @@ public class PlayerMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //rotação
+        //rotaÃ§Ã£o
         _inputRodar = Input.GetAxis("Mouse X");
         transform.Rotate(transform.up * _inputRodar*VelocidadeRotacao * Time.deltaTime);
 
