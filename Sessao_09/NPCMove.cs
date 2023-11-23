@@ -1,5 +1,5 @@
 //
-// Copyright (c) 2022 IndieDevPt. All rights reserved.
+// Copyright (c) 2023 IndieDevPt. All rights reserved.
 //
 using System.Collections;
 using System.Collections.Generic;
@@ -93,7 +93,7 @@ public class NPCMove : MonoBehaviour
     }
     void Estado_Morto()
     {
-        /*Bug corrigido na sess„o 9*/
+        /*Bug corrigido na sess√£o 9*/
         _agente.isStopped = true;
         _agente.speed = 0;
         _animator.SetTrigger("morto");
